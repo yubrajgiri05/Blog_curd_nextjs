@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+    padding-top: 10px;
+}
+.input-title{
+    width: 80%;
+    margin-top: 10px;
+    border: 2px solid rgb(70, 65, 65);
+} 
+.btn{
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+.pxc{
+    padding-right: 12rem;
+    padding-left: 12rem;
+}
