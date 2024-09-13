@@ -11,7 +11,7 @@ const Page = () => {
 
   const router = useRouter();
 
-  const handleSubmit = async(e) => {
+  const handleSubmit = async(e: { preventDefault: () => void; }) => {
     e.preventDefault();
 
     if (!title || !description || !author || !date) {
@@ -85,7 +85,7 @@ const Page = () => {
         <div className="">
           <div>
             <label htmlFor="profil" className="text-2xl font-medium py-4">
-              Enter the Blog's Author Name
+              Enter the Blog Author Name
             </label>
           </div>
           <input
@@ -102,7 +102,7 @@ const Page = () => {
         <div className="">
           <div>
             <label htmlFor="date" className="text-2xl font-medium py-4">
-              Enter the Blog's Date
+              Enter the Blog Date
             </label>
           </div>
           <input

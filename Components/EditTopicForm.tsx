@@ -16,12 +16,12 @@ const EditTopicForm = () => {
   </div>
 
   <div className="">
-     <div><label htmlFor="profil" className="text-2xl font-medium py- py-4">Enter the Blog's Author name</label> </div> 
+     <div><label htmlFor="profil" className="text-2xl font-medium py- py-4">Enter the Blog Author name</label> </div> 
     <input type="text" id="profil" className="input-title" placeholder="Enter name" required />
   </div>
 
   <div className="">
-     <div><label htmlFor="date" className="text-2xl font-medium py- py-4">Enter the Blog's Date</label> </div> 
+     <div><label htmlFor="date" className="text-2xl font-medium py- py-4">Enter the Blog Date</label> </div> 
     <input type="text" id="date" className="input-title" placeholder="Enter date" required />
   </div>
   <button className='btn '>
