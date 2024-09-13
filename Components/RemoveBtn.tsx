@@ -1,5 +1,4 @@
 "use client";
-import { useRouter } from "next/router";
 import React, { useState } from "react";
 import { HiOutlineTrash } from "react-icons/hi";
 
@@ -27,6 +26,7 @@ const RemoveBtn = ({ id }:any) => {
         setIsDeleting(false); // Reset loading state
       }
     }
+    
   };
 
   return (
