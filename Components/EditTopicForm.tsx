@@ -12,7 +12,7 @@ const EditTopicForm = () => {
 
   <div className="">
      <div><label htmlFor="desc" className="text-2xl font-medium py- py-4">Enter the Blog Description</label> </div> 
-        <textarea rows={6} id="topic" className="input-title" placeholder="Description" required ></textarea>
+        <textarea rows={3} id="topic" className="input-title" placeholder="Description" required ></textarea>
   </div>
 
   <div className="">

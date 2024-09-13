@@ -22,6 +22,9 @@
     padding-right: 12rem;
     padding-left: 12rem;
 }
+.width-full{
+    width: 100% !important;
+}
 
 @media only screen and (max-width: 1024px){
 
